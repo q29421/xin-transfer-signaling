@@ -1,0 +1,1 @@
+{"name":"xin-transfer-signaling","version":"1.0.0","description":"Xin Transfer Cloud Signaling Server","main":"cloud-server.js","scripts":{"start":"node cloud-server.js"},"dependencies":{"ws":"^8.16.0"}}
