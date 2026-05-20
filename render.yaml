@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: xin-transfer-signaling
+    runtime: docker
+    repo: https://github.com/q29421/xin-transfer-signaling
+    branch: master
+    plan: free
+    envVars:
+      - key: PORT
+        value: 9763
